@@ -194,7 +194,7 @@ button {
   margin-left: 30px;
 }
 .features {
-  margin-top: 94px;
+  margin-top: 48px;
 }
 .features-header {
   font-weight: 700;
@@ -211,30 +211,17 @@ button {
   width: 70px;
   height: 70px;
 }
-/* .features-item::before {
-  content: "";
-  display: inline-block;
+.features-container {
   width: 270px;
   height: 120px;
+  background-color: #f5f4fa;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-color: #f5f4fa;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.features-item.antenna::before {
-  background-image: url(../images/icons/antenna.svg);
-}
-.features-item.clock::before {
-  background-image: url(../images/icons/clock.svg);
-}
-.features-item.diagram::before {
-  background-image: url(../images/icons/diagram.svg);
-}
-.features-item.astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
-} */
 /* робота */
 .work-list {
   display: flex;
